@@ -120,9 +120,16 @@
               "devServerTarget": "mrbenino:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "mrbenino"
+  "defaultProject": "mrbenino",
+  "cli": {
+    "analytics": false
+  }
 }
